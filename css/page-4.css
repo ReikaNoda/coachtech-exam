@@ -77,6 +77,9 @@ table th,
 table td :nth-last-child(6) {
   border-bottom: 1px solid black;
 }
+table td:last-of-type{
+  border-bottom: 1px solid black;
+}
 
 table th {
   font-weight: bold;

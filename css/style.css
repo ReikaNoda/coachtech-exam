@@ -39,12 +39,7 @@ a {
   width: 100vw;
   height: 800px;
   background-color: thistle;
-}
-
-.main1__img {
-  width: 200px;
-  height: 100%;
-  position: relative;
+  background: url("../img/mv.png") no-repeat center / 100%;
 }
 
 .main1__title,
@@ -74,17 +69,20 @@ a {
   color: white;
 }
 
+.main2__title,
+.main2__txt {
+  margin: 0 auto 0;
+}
+
 .main2__title {
-  font-size: 35px;
-  position: relative;
-  top: 100px;
-  left: 150px;
+  font-size: 32px;
+  padding: 70px 0 30px 110px;
 }
 
 .main2__txt {
-  width: 80%;
-  margin: 130px auto;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 25px;
+  width: 85%;
 }
 
 .main3 {
@@ -344,5 +342,6 @@ small {
   border-right: 1px solid white;
 }
 
-.footer_list_nav_item a:not(:last-of-type) {
+.footer__list-nav-item a:nth-last-of-type(6) {
+  border-right: none;
 }
